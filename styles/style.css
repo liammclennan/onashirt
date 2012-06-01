@@ -1,0 +1,51 @@
+
+body
+{
+    background-color: Black;
+    color: White;
+    padding: 0;
+    margin: 0;   
+    font-family: Consolas, Trebuchet MS, Verdana;
+}
+
+div.shirt
+{
+    float: left;   
+}
+
+div.form
+{
+   position: absolute;
+   left: 700px;
+   top: 50px; 
+    background-color: #333333;
+    padding: 20px;
+}
+
+div.print
+{
+    position: absolute;
+    width: 290px;
+    height: 200px;
+    left: 205px;
+    top: 210px;
+    text-align: center;
+    font-size: 36px;
+    vertical-align: middle;
+    color: #333333;
+}
+
+div.credits
+{
+    clear: both;   
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.logo
+{
+    position: absolute;
+    left: 700px;
+    top: 180px;   
+}
