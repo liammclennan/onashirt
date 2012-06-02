@@ -1,0 +1,11 @@
+
+# the nginx server instance
+server {
+    listen 80;
+    server_name onashirt.net;
+    access_log /var/log/nginx/onashirt.log;
+
+    location / {
+      index  OnAShirt.htm;
+    }
+ }
