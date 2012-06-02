@@ -6,6 +6,7 @@ server {
     access_log /var/log/nginx/onashirt.log;
 
     location / {
+      root /home/liam/apps/onashirt;
       index  OnAShirt.htm;
     }
  }
